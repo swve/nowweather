@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700');
+
+@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee:600,800');
+
+body{
+  background-image: url('../img/bg2.png') ,linear-gradient(360deg, #48c6ef 0%, #6f86d6 100%);
+  background-attachment: fixed;
+  margin: auto;
+  background-size:cover;
+}
+.menu{
+  margin-top: 40px;
+
+}
+.menu a{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  margin-left: 8px;
+
+}
+.menu img{
+  width:190px;
+}
+.menu2{
+  margin-top: 13px;
+}
+.text1{
+  margin-top:170px;
+  color: white;
+  font-family: 'Mukta Mahee', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.search_box{
+  margin-top: 10px;
+
+  text-align: center;
+}
+input[type=text] {
+ border: none;
+ border-radius: 5px;
+ width: 500px;
+ padding: 20px;
+ height: 50px;
+ }
+ input[type=submit] {
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 50px;
+  margin-left: 5px;
+  background-color: azure;
+  }
+
+.address_name{
+  color: aliceblue;
+font-family: 'Mukta Mahee';
+text-align: center;
+margin-top: 80px;
+margin-bottom: 20px;
+font-size: 40px;
+}
+.address_name h1{
+  font-size: 50px;
+}
+.icon_weather img{
+  float:right;
+}
+.weather_infos p:first-child{
+  color: aliceblue;
+    font-size: 180px;
+    font-family: Mukta Mahee;
+    margin-left: 40px;
+    font-weight: 900;
+}
+.weather_informations h2{
+  color: aliceblue;
+font-family: 'Mukta Mahee';
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 20px;
+font-size: 40px;
+font-weight: bolder;
+}
