@@ -31,7 +31,7 @@
     <div class="menu">
       <div class="row">
         <div class="col-10">
-          <a href="index.html"><img src="img/logo.png" alt=""></a>
+          <a href="index.php"><img src="img/logo.png" alt=""></a>
         </div>
         <div class="col-2 menu2">
           <a href="#">About</a>
@@ -43,10 +43,10 @@
       What's the weather?
     </div>
     <div class="search_box">
-      <form class="" action= method="">
-        <input type="text" name="" value="" placeholder="Troyes , Casablanca , California .... ">
+      <form class="" action="weather.php" method="GET">
+        <input type="text" name="city" value="" placeholder="Troyes,FR  Casablanca,MA . . . . ">
         <input type="submit" name="" value="Find">
-        
+
       </form>
     </div>
 
